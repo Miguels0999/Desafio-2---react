@@ -1,0 +1,72 @@
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #023579;
+    --cor-fundo: #777b7cc4; 
+    --cor-texto: #ffffff; 
+  }
+  
+
+  button.btn-primary {
+    --bs-btn-bg: var(--cor-primaria);
+    --bs-btn-border-color: var(--cor-primaria);
+    --bs-btn-hover-bg: var(--cor-secundaria);
+    --bs-btn-hover-border-color: var(--cor-secundaria);
+    --bs-btn-active-bg: var(--cor-secundaria);
+    --bs-btn-active-border-color: var(--cor-secundaria);
+    --bs-btn-disabled-bg: var(--cor-primaria);
+    --bs-btn-disabled-border-color: var(--cor-primaria);
+    color: var(--cor-texto); 
+  }
+  
+  button.btn-outline-primary {
+    --bs-btn-color: var(--cor-primaria);
+    --bs-btn-border-color: var(--cor-primaria);
+    --bs-btn-hover-bg: var(--cor-primaria);
+    --bs-btn-hover-border-color: var(--cor-primaria);
+    --bs-btn-active-bg: var(--cor-primaria);
+    --bs-btn-active-border-color: var(--cor-primaria);
+    --bs-btn-disabled-color: var(--cor-primaria);
+    --bs-btn-disabled-border-color: var(--cor-primaria);
+    color: var(--cor-primaria); 
+  }
+  
+
+  button.btn-primary:disabled {
+    --bs-btn-disabled-bg: var(--cor-secundaria);
+    --bs-btn-disabled-border-color: var(--cor-secundaria);
+    cursor: not-allowed;
+  }
+  
+  button.btn-outline-primary:disabled {
+    --bs-btn-disabled-color: var(--cor-secundaria);
+    --bs-btn-disabled-border-color: var(--cor-secundaria);
+    cursor: not-allowed;
+  }
+  
+
+  button.btn {
+    background-color: var(--cor-fundo);
+  }
+  
+
+  button.btn:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+  }
+  
+
+  button.btn:active {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+  }
+  
+ 
+  button.btn:disabled {
+    background-color: var(--cor-fundo);
+    border-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+  }
+  

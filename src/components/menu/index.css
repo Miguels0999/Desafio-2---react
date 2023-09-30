@@ -1,0 +1,46 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    /* Fundo preto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+li {
+    float: left;
+}
+
+li:first-child {
+    margin-left: 25px;
+}
+
+/* Estilo para o título "Cele Atacado" */
+li:first-child span {
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+li:last-child {
+    float: right;
+    margin-right: 25px;
+}
